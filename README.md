@@ -10,4 +10,8 @@ global user base of perhaps 6 people.
 You'll need a trello API key and token. To get that, go here: https://trello.com/app-key and follow the instructions
 to manually generate the token.  Protect both the API key and token like you would a username and password. 
 
-O
+Then you can run the command like this:
+
+```
+./mutual-aid-trello csv --api-key <api-key> --token <token> --out output.csv
+```
